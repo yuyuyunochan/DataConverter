@@ -29,9 +29,6 @@ class DataConverterTest {
 
     @Test
     void jsonToCsvQuotesFields() throws IOException {
-        if (System.getProperty("os.name").startsWith("Linux")) {
-            throw new AssertionError("CI fail-fast: false");
-        }
         assertEquals("name,note\nEva,\"hello, world\"\n", DataConverter.convertText(
                 "[{\"name\":\"Eva\",\"note\":\"hello, world\"}]", "json", "csv"));
     }
