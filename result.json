@@ -1,0 +1,17 @@
+[ {
+  "name" : "Anna",
+  "city" : "Moscow",
+  "role" : "QA"
+}, {
+  "name" : "Ivan",
+  "city" : "Novosibirsk",
+  "role" : "Developer"
+}, {
+  "name" : "Danil",
+  "city" : "Moscow",
+  "role" : "Researcher"
+}, {
+  "name" : "Maria",
+  "city" : "Tomsk",
+  "role" : "Designer"
+} ]
